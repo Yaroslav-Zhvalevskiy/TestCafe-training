@@ -1,0 +1,26 @@
+{
+  "name": "testcafe-training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node src/config/runner.js",
+    "allure": "node allure-server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yaroslav-Zhvalevskiy/TestCafe-training.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yaroslav-Zhvalevskiy/TestCafe-training/issues"
+  },
+  "homepage": "https://github.com/Yaroslav-Zhvalevskiy/TestCafe-training#readme",
+  "dependencies": {
+    "allure-commandline": "^2.13.8",
+    "express": "^4.17.1",
+    "testcafe": "^1.17.1",
+    "testcafe-reporter-allure": "^1.0.5"
+  }
+}
