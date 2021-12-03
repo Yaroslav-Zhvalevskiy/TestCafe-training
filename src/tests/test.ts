@@ -47,7 +47,6 @@ test('Test sidebar', async t => {
     await t.expect(await app.docBoard.title.textContent).eql('Run Tests');
     await t.click(app.sidebar.sidebarItems.withText('TypeScript and CoffeeScript'));
     await t.expect(await app.docBoard.title.textContent).eql('TypeScript and CoffeeScript');
-
     await t.click(app.header.menuItems.withText('Reference'));
     await t.expect(await app.docBoard.title.textContent).eql('Reference');
     await t.click(app.sidebar.sidebarItems.withText('Global Functions'));
